@@ -1468,4 +1468,35 @@ a {
     border-radius: 12px;
     box-shadow: 0 0 50px rgba(200, 150, 46, 0.2); /* A soft gold glow */
     border: 1px solid rgba(200, 150, 46, 0.3); /* A subtle gold rim */
+}/* Force the stars to be visible and on top */
+.stars-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999; /* This pulls them to the very front */
+    pointer-events: none;
+}
+
+.star-item {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+/* Force the stars to be visible and on top */
+.stars-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999; /* This pulls them to the very front */
+    pointer-events: none;
+}
+
+.star-item {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
