@@ -1462,3 +1462,10 @@ a {
     white-space: nowrap;
     z-index: 10;
 }
+.hero-image-new {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 50px rgba(200, 150, 46, 0.2); /* A soft gold glow */
+    border: 1px solid rgba(200, 150, 46, 0.3); /* A subtle gold rim */
+}
