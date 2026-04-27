@@ -1448,3 +1448,17 @@ a {
     66% { transform: translate(-30px, -80px) rotate(-5deg); }
     100% { transform: translate(0, 0) rotate(0deg); }
 }
+/* Position the stars relative to the hero graphic */
+.hero-graphic {
+    position: relative; /* This keeps the stars inside the image area */
+}
+
+.star-1 { top: 5%; left: 10%; animation-delay: 0s; }
+.star-2 { top: 15%; right: 10%; animation-delay: 2s; background: #1e3a5f !important; } /* A dark blue one for variety */
+.star-3 { bottom: 20%; left: 15%; animation-delay: 4s; }
+
+/* Make the text inside them look sharp */
+.star-item {
+    white-space: nowrap;
+    z-index: 10;
+}
